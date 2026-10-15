@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Headphone Hub</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fb; color: #1f2937; }
+    header { background: #111827; color: #fff; padding: 1rem 2rem; }
+    nav a { color: #fff; margin-right: 1rem; text-decoration: none; }
+    main { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+    section { background: #fff; margin-bottom: 1rem; padding: 1.25rem; border-radius: 8px; }
+    h1, h2 { margin-top: 0; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; }
+    .card { border: 1px solid #e5e7eb; border-radius: 6px; padding: 0.75rem; }
+    form { display: grid; gap: 0.5rem; max-width: 320px; }
+    input, button { padding: 0.5rem; border: 1px solid #d1d5db; border-radius: 4px; }
+    button { background: #2563eb; color: white; border: none; cursor: pointer; }
+    footer { text-align: center; padding: 1rem; color: #6b7280; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Headphone Hub</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a href="#login-register">Login/Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to Headphone Hub, your simple one-stop shop for quality headphones.</p>
+      <div class="products">
+        <article class="card">
+          <h3>Studio Pro</h3>
+          <p>Noise-cancelling over-ear headphones for immersive sound.</p>
+          <p><strong>$149</strong></p>
+        </article>
+        <article class="card">
+          <h3>Air Beat</h3>
+          <p>Wireless earbuds with long battery life and deep bass.</p>
+          <p><strong>$89</strong></p>
+        </article>
+        <article class="card">
+          <h3>Classic Lite</h3>
+          <p>Comfortable everyday headphones for work and calls.</p>
+          <p><strong>$59</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>We focus on selling reliable headphones that match your lifestyle, budget, and listening style.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Fast delivery</li>
+        <li>Easy returns</li>
+        <li>Customer support for product recommendations</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: support@headphonehub.example</p>
+      <p>Phone: +1 (555) 010-2026</p>
+    </section>
+
+    <section id="login-register">
+      <h2>Login / Register</h2>
+      <form>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com" />
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter password" />
+        <button type="button">Login</button>
+        <button type="button">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Headphone Hub</p>
+  </footer>
+</body>
+</html>
